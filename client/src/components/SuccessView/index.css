@@ -1,0 +1,14 @@
+.success-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #f2ecec;
+}
+.tick {
+  padding: 10px;
+  background-color: #f2ecec;
+  color: #4a4141;
+  border: 1px solid #4a4141;
+  border-radius: 50%;
+}

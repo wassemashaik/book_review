@@ -1,0 +1,16 @@
+.nav-main-container {
+  display: flex;
+  justify-content: space-between;
+}
+.width-text {
+  display: inline-block;
+  width: fit-content;
+  color: #4A4141;
+}
+.dropdown-container {
+  display: flex;
+  width: max-content;
+}
+.nav-box{
+  height: 127px;
+}

@@ -1,0 +1,51 @@
+.main-container {
+  background-color: #f2ecec !important;
+  color: #4a4141 !important;
+  display: flex;
+  flex-direction: column;
+  width: 1424px;
+  height: 100%;
+  margin: 0;
+}
+@media screen and (max-width: 768px) {
+  .main-container {
+    display: flex;
+    height: auto;
+    flex-direction: column;
+    margin: 0;
+    width: 768px;
+    height: max-content;
+    text-align: center;
+  }
+}
+.input-element {
+  border: none;
+  border-radius: 8px;
+  background-color: #8e8787;
+  padding: 10px;
+  margin: 10px 0px;
+  color: #4a4141;
+}
+.head {
+  font-weight: 600;
+}
+.para {
+  font-weight: 400;
+  text-align: center;
+}
+.button {
+  background-color: #4a4141;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  margin: 10px;
+  padding: 8px;
+  width: 120px;
+}
+.checkbox-container {
+  display: flex;
+}
+* {
+  scroll-behavior: smooth;
+}
